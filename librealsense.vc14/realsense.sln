@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "realsense", "realsense\realsense.vcxproj", "{1AE4CEB5-9A0B-4B9F-9505-824FD56BB41F}"
 EndProject
@@ -130,6 +130,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unit-tests-live-zr300", "un
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{D562F976-74ED-4C2D-A291-F5A614603E85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Capture Test", "capture-test\capture-test.vcxproj", "{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -355,6 +357,14 @@ Global
 		{036423B5-EDC7-4681-9282-373DE5821843}.Release|Win32.Build.0 = Release|Win32
 		{036423B5-EDC7-4681-9282-373DE5821843}.Release|x64.ActiveCfg = Release|x64
 		{036423B5-EDC7-4681-9282-373DE5821843}.Release|x64.Build.0 = Release|x64
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Debug|Win32.Build.0 = Debug|Win32
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Debug|x64.ActiveCfg = Debug|x64
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Debug|x64.Build.0 = Debug|x64
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Release|Win32.ActiveCfg = Release|Win32
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Release|Win32.Build.0 = Release|Win32
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Release|x64.ActiveCfg = Release|x64
+		{38FC4285-8CEB-4B8A-999A-AD312E4ECEDD}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -387,5 +397,8 @@ Global
 		{73EFE2E7-7AE7-4E04-89A9-22B6B5E908B5} = {9CE5B9D5-05C7-4288-99B3-13ABFBE7B60C}
 		{8B1DC091-609F-4783-A2C2-CA0F7B5B644F} = {EA2793EE-C590-43D0-A11D-02F93DA139AC}
 		{036423B5-EDC7-4681-9282-373DE5821843} = {EA2793EE-C590-43D0-A11D-02F93DA139AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {878C7224-0918-4C31-B29B-E7D9A75BBD2D}
 	EndGlobalSection
 EndGlobal
